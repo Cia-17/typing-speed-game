@@ -158,3 +158,41 @@ body{
     text-decoration: none;
     color: #17a2b8;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .wrapper {
+        padding: 20px;
+    }
+
+    .typing-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .content-box .content {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .content-box .result-details {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .result-details li {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .content button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
